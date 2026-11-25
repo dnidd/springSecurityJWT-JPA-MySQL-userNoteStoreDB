@@ -3,7 +3,8 @@ package com.snidd.note_store.entity;
 import jakarta.persistence.*;
 
 /**
- * Note entity
+ * Note entity.
+ * ManyToOne relationship to user.
  */
 @Entity
 public class Note {

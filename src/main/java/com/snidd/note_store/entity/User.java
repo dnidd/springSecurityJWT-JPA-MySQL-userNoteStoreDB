@@ -10,6 +10,7 @@ import java.util.List;
  * Annotation @Entity tells JPA that this class User
  * represents DB table user with JPA naming convention.
  * Hibernate connect entity to table.
+ * OneToMany relationship to notes.
  */
 @Entity
 public class User {
